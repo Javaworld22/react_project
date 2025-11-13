@@ -34,11 +34,40 @@ if st.button("Check Project"):
 
     elif projectType == '4':
         st.markdown("""
-            Weather App (using API)
+            Weather App 
             Concept:useEffect
             Fetch data from payload
             Display temperature and conditions
             Handle loading states
+
+        """)
+
+    elif projectType == '5':
+        st.markdown("""
+        Calculator
+        Concept: State Management, Events
+        Build basic arithmetic operations
+        Handle user input
+        Practice complex state logic
+        """)
+
+    elif projectType == '6':
+        st.markdown(""""
+        Recipe Finder
+        Concept: Payload Integration, Search
+        Search for recipes by ingredient
+        Display results with images
+        Practice handling user input
+        """)
+
+    elif projectType == '7':
+        st.markdown("""
+        Budget Tracker
+        Concept: State, Forms, Calculations
+        Add income/expenses
+        Calculate balance
+        List transactions
+        Practice complex state management
 
 
         """)
