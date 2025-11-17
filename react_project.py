@@ -39,7 +39,8 @@ if st.button("Check Project"):
             Fetch data from payload
             Display temperature and conditions
             Handle loading states
-        """) st.markdown("""
+        """)
+        st.markdown("""
             {"New York": {
     temperature: 22,
     condition: "Sunny",
@@ -98,17 +99,17 @@ if st.button("Check Project"):
         st.markdown("""
          {
     id: 1,
-    title: "Vegetable Pasta",
-    image: "🍝",
-    ingredients: ["pasta", "tomatoes", "basil", "garlic", "olive oil"],
-    instructions: "Cook pasta. Sauté garlic, add tomatoes. Mix with pasta.",
+    title: 'Vegetable Pasta',
+    image: '🍝',
+    ingredients: ['pasta', 'tomatoes', 'basil', 'garlic', 'olive oil'],
+    instructions: "Cook pasta. Sauté garlic, add tomatoes. Mix with pasta.',
     cookingTime: 20,
-    difficulty: "Easy"
+    difficulty: 'Easy'
   },
   {
     id: 2,
-    title: "Chicken Stir Fry",
-    image: "🍲",
+    title: 'Chicken Stir Fry',
+    image: '🍲',
     ingredients: ["chicken", "bell peppers", "soy sauce", "ginger", "rice"],
     instructions: "Stir fry chicken and vegetables. Add sauce. Serve with rice.",
     cookingTime: 25,
