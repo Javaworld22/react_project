@@ -153,3 +153,51 @@ if st.button("Check Project"):
         List transactions
         Practice complex state management
         """)
+
+st.title("Library Management System")
+st.title("Database and Table Creation")
+
+st.write("Task 1: Create a database named library_db")
+st.write("Task 2: Create a table books with the following structure:")
+st.markdown("""
++ book_id (INT, primary key, auto-increment)
+
++ title (VARCHAR, max 200 characters, not null)
+
++ author (VARCHAR, max 100 characters, not null)
+
++ genre (VARCHAR, max 50 characters)
+
++ published_year (INT)
+
++ price (DECIMAL, 8 digits with 2 decimal places)
+
++ in_stock (BOOLEAN, default true)
+
+""")
+st.write("Task 3: Create a table members with:")
+st.markdown("""
+
++ member_id (INT, primary key, auto-increment)
+
++ first_name (VARCHAR, max 50, not null)
+
++ last_name (VARCHAR, max 50, not null)
+
++ email (VARCHAR, max 100, unique)
+
++ join_date (DATE)
+
++ membership_type (ENUM: 'Basic', 'Premium', 'VIP')
+
+""")
+
+st.write("Task 4: Insert 5 books into the books table:")
+st.markdown("""
++ Your code here - insert these books:
++ 1. "To Kill a Mockingbird", "Harper Lee", "Fiction", 1960, 12.99, true
++ 2. "1984", "George Orwell", "Dystopian", 1949, 10.50, true
++ 3. "The Great Gatsby", "F. Scott Fitzgerald", "Classic", 1925, 11.25, false
++ 4. "Pride and Prejudice", "Jane Austen", "Romance", 1813, 9.99, true
++ 5. "The Hobbit", "J.R.R. Tolkien", "Fantasy", 1937, 14.75, true
+""")
